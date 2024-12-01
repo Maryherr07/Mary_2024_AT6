@@ -1,0 +1,3 @@
+The UserInputValidator class validates user input for specific criteria. It currently includes:
+- validate_positive_integers: Checks a list of strings for valid positive integers.
+- display_validation_message: Displays a success message after validation.
