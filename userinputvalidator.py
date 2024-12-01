@@ -9,4 +9,9 @@ class UserInputValidator:
             if input_str.isdigit() and int(input_str) > 0:
                 valid_integers.append(int(input_str))
         return valid_integers
-        pass
+
+
+
+    def display_message(self, inputs, validated_numbers):
+    
+        print(f"Validated {len(inputs)} inputs. {len(validated_numbers)} were valid positive integers.")
